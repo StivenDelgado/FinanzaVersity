@@ -65,6 +65,8 @@ function moduloConsejos() {
         consejos += "- Incrementa gradualmente tu porcentaje de ahorro al menos al 20%.\n";
     } else if (resultadosFinancieros.salud === "Baja") {
         consejos += "- Reduce tus gastos mensuales y prioriza el pago de deudas de alta tasa de interés.\n";
+    }else {
+        consejos += "- ¡No hay consejos para ti! ¡Continúa trabajando y manteniendo tus ingresos y ahorros en buenas condiciones!\n";
     }
 
     alert(consejos);
